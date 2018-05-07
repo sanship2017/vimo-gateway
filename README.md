@@ -35,4 +35,14 @@ VimoLib.VerifyOTP({
  otp: ''
 }, (err, data) => {
 });
+
+VimoLib.GetBalanceUserLinked({
+  'token_id': ''
+}, (err, result) => {
+});
+
+VimoLib.Unlinked({
+  'token_id': ''
+}, (err, result) => {
+});
 ```
